@@ -15,10 +15,10 @@ import (
 )
 
 // APIToken authenticates against the metrics ingestion API of Dynatrace
-const APIToken = "dt#c##.########################.################################################################"
+const APIToken = "##############"
 
 // MintURL represents the API endpoint for metrics ingestion
-const MintURL = "https://########.dev.dynatracelabs.com/api/v2/metrics/ingest"
+const MintURL = "https://########.sprint.dynatracelabs.com/api/v2/metrics/ingest"
 
 // const MintURL = "http://localhost:14499/metrics/ingest"
 // initMetricsProvider configures the Dynatrace Metrics Exporter
